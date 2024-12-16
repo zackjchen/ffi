@@ -310,6 +310,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { plus100 } = nativeBinding
+const { Algo, add } = nativeBinding
 
-module.exports.plus100 = plus100
+module.exports.Algo = Algo
+module.exports.add = add

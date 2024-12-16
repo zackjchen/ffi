@@ -1,0 +1,1546 @@
+warning[deprecated]: this key will be removed in a future update, see https://github.com/EmbarkStudios/cargo-deny/pull/611 for details
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:39:1
+   │
+39 │ vulnerability = "deny"
+   │ ^^^^^^^^^^^^^
+
+warning[deprecated]: this key will be removed in a future update, see https://github.com/EmbarkStudios/cargo-deny/pull/611 for details
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:41:1
+   │
+41 │ unmaintained = "warn"
+   │ ^^^^^^^^^^^^
+
+warning[deprecated]: this key will be removed in a future update, see https://github.com/EmbarkStudios/cargo-deny/pull/611 for details
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:47:1
+   │
+47 │ notice = "warn"
+   │ ^^^^^^
+
+warning[deprecated]: this key will be removed in a future update, see https://github.com/EmbarkStudios/cargo-deny/pull/611 for details
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:69:1
+   │
+69 │ unlicensed = "allow"
+   │ ^^^^^^^^^^
+
+warning[deprecated]: this key will be removed in a future update, see https://github.com/EmbarkStudios/cargo-deny/pull/611 for details
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:98:1
+   │
+98 │ allow-osi-fsf-free = "neither"
+   │ ^^^^^^^^^^^^^^^^^^
+
+warning[deprecated]: this key will be removed in a future update, see https://github.com/EmbarkStudios/cargo-deny/pull/611 for details
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:91:1
+   │
+91 │ copyleft = "warn"
+   │ ^^^^^^^^
+
+warning[deprecated]: this key will be removed in a future update, see https://github.com/EmbarkStudios/cargo-deny/pull/611 for details
+    ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:103:1
+    │
+103 │ default = "deny"
+    │ ^^^^^^^
+
+warning[deprecated]: this key will be removed in a future update, see https://github.com/EmbarkStudios/cargo-deny/pull/611 for details
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:87:1
+   │
+87 │ deny = [
+   │ ^^^^
+
+warning[deprecated]: this key has been moved to [graph]
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:20:1
+   │
+20 │ targets = [
+   │ ^^^^^^^
+
+warning[license-not-encountered]: license was not encountered
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:77:4
+   │
+77 │   "MPL-2.0",
+   │    ^^^^^^^ unmatched license allowance
+
+warning[license-not-encountered]: license was not encountered
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:76:4
+   │
+76 │   "Unicode-DFS-2016",
+   │    ^^^^^^^^^^^^^^^^ unmatched license allowance
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:1:1
+   │
+ 1 │ addr2line 0.24.2 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = addr2line v0.24.2
+     └── backtrace v0.3.74
+         └── tokio v1.42.0
+             └── napi v2.16.13
+                 └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:2:1
+   │
+ 2 │ adler2 2.0.0 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = adler2 v2.0.0
+     └── miniz_oxide v0.8.0
+         └── backtrace v0.3.74
+             └── tokio v1.42.0
+                 └── napi v2.16.13
+                     └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:3:1
+   │
+ 3 │ aho-corasick 1.1.3 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = aho-corasick v1.1.3
+     ├── regex v1.11.1
+     │   └── napi-derive-backend v1.0.75
+     │       └── napi-derive v2.16.13
+     │           ├── napi v2.16.13
+     │           │   └── node-binding v0.1.0
+     │           └── node-binding v0.1.0 (*)
+     └── regex-automata v0.4.9
+         └── regex v1.11.1 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:5:1
+   │
+ 5 │ android-tzdata 0.1.1 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = android-tzdata v0.1.1
+     └── chrono v0.4.39
+         └── napi v2.16.13
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:6:1
+   │
+ 6 │ android_system_properties 0.1.5 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = android_system_properties v0.1.5
+     └── iana-time-zone v0.1.61
+         └── chrono v0.4.39
+             └── napi v2.16.13
+                 └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:7:1
+   │
+ 7 │ arrayref 0.3.9 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = arrayref v0.3.9
+     └── blake3 v1.5.5
+         └── algo v0.1.0
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:8:1
+   │
+ 8 │ arrayvec 0.7.6 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = arrayvec v0.7.6
+     └── blake3 v1.5.5
+         └── algo v0.1.0
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:9:1
+   │
+ 9 │ autocfg 1.4.0 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = autocfg v1.4.0
+     └── (build) num-traits v0.2.19
+         └── chrono v0.4.39
+             └── napi v2.16.13
+                 └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:10:1
+   │
+10 │ backtrace 0.3.74 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = backtrace v0.3.74
+     └── tokio v1.42.0
+         └── napi v2.16.13
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:11:1
+   │
+11 │ bitflags 2.6.0 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = bitflags v2.6.0
+     └── napi v2.16.13
+         └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:12:1
+   │
+12 │ blake3 1.5.5 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = blake3 v1.5.5
+     └── algo v0.1.0
+         └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:13:1
+   │
+13 │ bumpalo 3.16.0 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = bumpalo v3.16.0
+     └── wasm-bindgen-backend v0.2.99
+         └── wasm-bindgen-macro-support v0.2.99
+             └── wasm-bindgen-macro v0.2.99
+                 └── wasm-bindgen v0.2.99
+                     ├── chrono v0.4.39
+                     │   └── napi v2.16.13
+                     │       └── node-binding v0.1.0
+                     ├── iana-time-zone v0.1.61
+                     │   └── chrono v0.4.39 (*)
+                     └── js-sys v0.3.76
+                         ├── chrono v0.4.39 (*)
+                         └── iana-time-zone v0.1.61 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:14:1
+   │
+14 │ cc 1.2.3 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate version '1.2.3'
+   = cc v1.2.3
+     ├── (build) blake3 v1.5.5
+     │   └── algo v0.1.0
+     │       └── node-binding v0.1.0
+     └── (build) iana-time-zone-haiku v0.1.2
+         └── iana-time-zone v0.1.61
+             └── chrono v0.4.39
+                 └── napi v2.16.13
+                     └── node-binding v0.1.0 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:16:1
+   │
+16 │ chrono 0.4.39 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = chrono v0.4.39
+     └── napi v2.16.13
+         └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:17:1
+   │
+17 │ constant_time_eq 0.3.1 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = constant_time_eq v0.3.1
+     └── blake3 v1.5.5
+         └── algo v0.1.0
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:18:1
+   │
+18 │ convert_case 0.6.0 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = convert_case v0.6.0
+     ├── napi-derive v2.16.13
+     │   ├── napi v2.16.13
+     │   │   └── node-binding v0.1.0
+     │   └── node-binding v0.1.0 (*)
+     └── napi-derive-backend v1.0.75
+         └── napi-derive v2.16.13 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:19:1
+   │
+19 │ core-foundation-sys 0.8.7 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = core-foundation-sys v0.8.7
+     └── iana-time-zone v0.1.61
+         └── chrono v0.4.39
+             └── napi v2.16.13
+                 └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:20:1
+   │
+20 │ ctor 0.2.9 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = ctor v0.2.9
+     └── napi v2.16.13
+         └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:21:1
+   │
+21 │ encoding_rs 0.8.35 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = encoding_rs v0.8.35
+     └── napi v2.16.13
+         └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:22:1
+   │
+22 │ gimli 0.31.1 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = gimli v0.31.1
+     └── addr2line v0.24.2
+         └── backtrace v0.3.74
+             └── tokio v1.42.0
+                 └── napi v2.16.13
+                     └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:23:1
+   │
+23 │ iana-time-zone 0.1.61 registry+https://github.com/rust-lang/crates.io-index
+   │ --------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = iana-time-zone v0.1.61
+     └── chrono v0.4.39
+         └── napi v2.16.13
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:24:1
+   │
+24 │ iana-time-zone-haiku 0.1.2 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = iana-time-zone-haiku v0.1.2
+     └── iana-time-zone v0.1.61
+         └── chrono v0.4.39
+             └── napi v2.16.13
+                 └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:25:1
+   │
+25 │ itoa 1.0.14 registry+https://github.com/rust-lang/crates.io-index
+   │ ----------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = itoa v1.0.14
+     └── serde_json v1.0.133
+         └── napi v2.16.13
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:26:1
+   │
+26 │ js-sys 0.3.76 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = js-sys v0.3.76
+     ├── chrono v0.4.39
+     │   └── napi v2.16.13
+     │       └── node-binding v0.1.0
+     └── iana-time-zone v0.1.61
+         └── chrono v0.4.39 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:27:1
+   │
+27 │ libc 0.2.168 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate version '0.2.168'
+   = libc v0.2.168
+     ├── android_system_properties v0.1.5
+     │   └── iana-time-zone v0.1.61
+     │       └── chrono v0.4.39
+     │           └── napi v2.16.13
+     │               └── node-binding v0.1.0
+     └── backtrace v0.3.74
+         └── tokio v1.42.0
+             └── napi v2.16.13 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:28:1
+   │
+28 │ libloading 0.8.6 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = libloading v0.8.6
+     └── napi-sys v2.4.0
+         └── napi v2.16.13
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:29:1
+   │
+29 │ log 0.4.22 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = log v0.4.22
+     └── wasm-bindgen-backend v0.2.99
+         └── wasm-bindgen-macro-support v0.2.99
+             └── wasm-bindgen-macro v0.2.99
+                 └── wasm-bindgen v0.2.99
+                     ├── chrono v0.4.39
+                     │   └── napi v2.16.13
+                     │       └── node-binding v0.1.0
+                     ├── iana-time-zone v0.1.61
+                     │   └── chrono v0.4.39 (*)
+                     └── js-sys v0.3.76
+                         ├── chrono v0.4.39 (*)
+                         └── iana-time-zone v0.1.61 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:30:1
+   │
+30 │ memchr 2.7.4 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = memchr v2.7.4
+     ├── aho-corasick v1.1.3
+     │   ├── regex v1.11.1
+     │   │   └── napi-derive-backend v1.0.75
+     │   │       └── napi-derive v2.16.13
+     │   │           ├── napi v2.16.13
+     │   │           │   └── node-binding v0.1.0
+     │   │           └── node-binding v0.1.0 (*)
+     │   └── regex-automata v0.4.9
+     │       └── regex v1.11.1 (*)
+     ├── object v0.36.5
+     │   └── backtrace v0.3.74
+     │       └── tokio v1.42.0
+     │           └── napi v2.16.13 (*)
+     ├── regex v1.11.1 (*)
+     ├── regex-automata v0.4.9 (*)
+     └── serde_json v1.0.133
+         └── napi v2.16.13 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:31:1
+   │
+31 │ miniz_oxide 0.8.0 registry+https://github.com/rust-lang/crates.io-index
+   │ ----------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = miniz_oxide v0.8.0
+     └── backtrace v0.3.74
+         └── tokio v1.42.0
+             └── napi v2.16.13
+                 └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:32:1
+   │
+32 │ napi 2.16.13 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = napi v2.16.13
+     └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:33:1
+   │
+33 │ napi-build 2.1.3 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = napi-build v2.1.3
+     └── (build) node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:34:1
+   │
+34 │ napi-derive 2.16.13 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = napi-derive v2.16.13
+     ├── napi v2.16.13
+     │   └── node-binding v0.1.0
+     └── node-binding v0.1.0 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:35:1
+   │
+35 │ napi-derive-backend 1.0.75 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = napi-derive-backend v1.0.75
+     └── napi-derive v2.16.13
+         ├── napi v2.16.13
+         │   └── node-binding v0.1.0
+         └── node-binding v0.1.0 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:36:1
+   │
+36 │ napi-sys 2.4.0 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = napi-sys v2.4.0
+     └── napi v2.16.13
+         └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:38:1
+   │
+38 │ num-traits 0.2.19 registry+https://github.com/rust-lang/crates.io-index
+   │ ----------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = num-traits v0.2.19
+     └── chrono v0.4.39
+         └── napi v2.16.13
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:39:1
+   │
+39 │ object 0.36.5 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = object v0.36.5
+     └── backtrace v0.3.74
+         └── tokio v1.42.0
+             └── napi v2.16.13
+                 └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:40:1
+   │
+40 │ once_cell 1.20.2 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = once_cell v1.20.2
+     ├── js-sys v0.3.76
+     │   ├── chrono v0.4.39
+     │   │   └── napi v2.16.13
+     │   │       └── node-binding v0.1.0
+     │   └── iana-time-zone v0.1.61
+     │       └── chrono v0.4.39 (*)
+     ├── napi v2.16.13 (*)
+     ├── napi-derive-backend v1.0.75
+     │   └── napi-derive v2.16.13
+     │       ├── napi v2.16.13 (*)
+     │       └── node-binding v0.1.0 (*)
+     └── wasm-bindgen v0.2.99
+         ├── chrono v0.4.39 (*)
+         ├── iana-time-zone v0.1.61 (*)
+         └── js-sys v0.3.76 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:41:1
+   │
+41 │ pin-project-lite 0.2.15 registry+https://github.com/rust-lang/crates.io-index
+   │ ----------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = pin-project-lite v0.2.15
+     └── tokio v1.42.0
+         └── napi v2.16.13
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:42:1
+   │
+42 │ proc-macro2 1.0.92 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = proc-macro2 v1.0.92
+     ├── napi-derive v2.16.13
+     │   ├── napi v2.16.13
+     │   │   └── node-binding v0.1.0
+     │   └── node-binding v0.1.0 (*)
+     ├── napi-derive-backend v1.0.75
+     │   └── napi-derive v2.16.13 (*)
+     ├── quote v1.0.37
+     │   ├── ctor v0.2.9
+     │   │   └── napi v2.16.13 (*)
+     │   ├── napi-derive v2.16.13 (*)
+     │   ├── napi-derive-backend v1.0.75 (*)
+     │   ├── syn v2.0.90
+     │   │   ├── ctor v0.2.9 (*)
+     │   │   ├── napi-derive v2.16.13 (*)
+     │   │   ├── napi-derive-backend v1.0.75 (*)
+     │   │   ├── wasm-bindgen-backend v0.2.99
+     │   │   │   └── wasm-bindgen-macro-support v0.2.99
+     │   │   │       └── wasm-bindgen-macro v0.2.99
+     │   │   │           └── wasm-bindgen v0.2.99
+     │   │   │               ├── chrono v0.4.39
+     │   │   │               │   └── napi v2.16.13 (*)
+     │   │   │               ├── iana-time-zone v0.1.61
+     │   │   │               │   └── chrono v0.4.39 (*)
+     │   │   │               └── js-sys v0.3.76
+     │   │   │                   ├── chrono v0.4.39 (*)
+     │   │   │                   └── iana-time-zone v0.1.61 (*)
+     │   │   └── wasm-bindgen-macro-support v0.2.99 (*)
+     │   ├── wasm-bindgen-backend v0.2.99 (*)
+     │   ├── wasm-bindgen-macro v0.2.99 (*)
+     │   └── wasm-bindgen-macro-support v0.2.99 (*)
+     ├── syn v2.0.90 (*)
+     ├── wasm-bindgen-backend v0.2.99 (*)
+     └── wasm-bindgen-macro-support v0.2.99 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:43:1
+   │
+43 │ quote 1.0.37 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = quote v1.0.37
+     ├── ctor v0.2.9
+     │   └── napi v2.16.13
+     │       └── node-binding v0.1.0
+     ├── napi-derive v2.16.13
+     │   ├── napi v2.16.13 (*)
+     │   └── node-binding v0.1.0 (*)
+     ├── napi-derive-backend v1.0.75
+     │   └── napi-derive v2.16.13 (*)
+     ├── syn v2.0.90
+     │   ├── ctor v0.2.9 (*)
+     │   ├── napi-derive v2.16.13 (*)
+     │   ├── napi-derive-backend v1.0.75 (*)
+     │   ├── wasm-bindgen-backend v0.2.99
+     │   │   └── wasm-bindgen-macro-support v0.2.99
+     │   │       └── wasm-bindgen-macro v0.2.99
+     │   │           └── wasm-bindgen v0.2.99
+     │   │               ├── chrono v0.4.39
+     │   │               │   └── napi v2.16.13 (*)
+     │   │               ├── iana-time-zone v0.1.61
+     │   │               │   └── chrono v0.4.39 (*)
+     │   │               └── js-sys v0.3.76
+     │   │                   ├── chrono v0.4.39 (*)
+     │   │                   └── iana-time-zone v0.1.61 (*)
+     │   └── wasm-bindgen-macro-support v0.2.99 (*)
+     ├── wasm-bindgen-backend v0.2.99 (*)
+     ├── wasm-bindgen-macro v0.2.99 (*)
+     └── wasm-bindgen-macro-support v0.2.99 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:44:1
+   │
+44 │ regex 1.11.1 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = regex v1.11.1
+     └── napi-derive-backend v1.0.75
+         └── napi-derive v2.16.13
+             ├── napi v2.16.13
+             │   └── node-binding v0.1.0
+             └── node-binding v0.1.0 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:45:1
+   │
+45 │ regex-automata 0.4.9 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = regex-automata v0.4.9
+     └── regex v1.11.1
+         └── napi-derive-backend v1.0.75
+             └── napi-derive v2.16.13
+                 ├── napi v2.16.13
+                 │   └── node-binding v0.1.0
+                 └── node-binding v0.1.0 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:46:1
+   │
+46 │ regex-syntax 0.8.5 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = regex-syntax v0.8.5
+     ├── regex v1.11.1
+     │   └── napi-derive-backend v1.0.75
+     │       └── napi-derive v2.16.13
+     │           ├── napi v2.16.13
+     │           │   └── node-binding v0.1.0
+     │           └── node-binding v0.1.0 (*)
+     └── regex-automata v0.4.9
+         └── regex v1.11.1 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:47:1
+   │
+47 │ rustc-demangle 0.1.24 registry+https://github.com/rust-lang/crates.io-index
+   │ --------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate version '0.1.24'
+   = rustc-demangle v0.1.24
+     └── backtrace v0.3.74
+         └── tokio v1.42.0
+             └── napi v2.16.13
+                 └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:48:1
+   │
+48 │ ryu 1.0.18 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = ryu v1.0.18
+     └── serde_json v1.0.133
+         └── napi v2.16.13
+             └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:49:1
+   │
+49 │ semver 1.0.24 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = semver v1.0.24
+     └── napi-derive-backend v1.0.75
+         └── napi-derive v2.16.13
+             ├── napi v2.16.13
+             │   └── node-binding v0.1.0
+             └── node-binding v0.1.0 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:50:1
+   │
+50 │ serde 1.0.216 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = serde v1.0.216
+     ├── napi v2.16.13
+     │   └── node-binding v0.1.0
+     └── serde_json v1.0.133
+         └── napi v2.16.13 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:51:1
+   │
+51 │ serde_json 1.0.133 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = serde_json v1.0.133
+     └── napi v2.16.13
+         └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:52:1
+   │
+52 │ shlex 1.3.0 registry+https://github.com/rust-lang/crates.io-index
+   │ ----------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = shlex v1.3.0
+     └── cc v1.2.3
+         ├── (build) blake3 v1.5.5
+         │   └── algo v0.1.0
+         │       └── node-binding v0.1.0
+         └── (build) iana-time-zone-haiku v0.1.2
+             └── iana-time-zone v0.1.61
+                 └── chrono v0.4.39
+                     └── napi v2.16.13
+                         └── node-binding v0.1.0 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:53:1
+   │
+53 │ syn 2.0.90 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = syn v2.0.90
+     ├── ctor v0.2.9
+     │   └── napi v2.16.13
+     │       └── node-binding v0.1.0
+     ├── napi-derive v2.16.13
+     │   ├── napi v2.16.13 (*)
+     │   └── node-binding v0.1.0 (*)
+     ├── napi-derive-backend v1.0.75
+     │   └── napi-derive v2.16.13 (*)
+     ├── wasm-bindgen-backend v0.2.99
+     │   └── wasm-bindgen-macro-support v0.2.99
+     │       └── wasm-bindgen-macro v0.2.99
+     │           └── wasm-bindgen v0.2.99
+     │               ├── chrono v0.4.39
+     │               │   └── napi v2.16.13 (*)
+     │               ├── iana-time-zone v0.1.61
+     │               │   └── chrono v0.4.39 (*)
+     │               └── js-sys v0.3.76
+     │                   ├── chrono v0.4.39 (*)
+     │                   └── iana-time-zone v0.1.61 (*)
+     └── wasm-bindgen-macro-support v0.2.99 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:54:1
+   │
+54 │ tokio 1.42.0 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = tokio v1.42.0
+     └── napi v2.16.13
+         └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:55:1
+   │
+55 │ unicode-ident 1.0.14 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = unicode-ident v1.0.14
+     ├── proc-macro2 v1.0.92
+     │   ├── napi-derive v2.16.13
+     │   │   ├── napi v2.16.13
+     │   │   │   └── node-binding v0.1.0
+     │   │   └── node-binding v0.1.0 (*)
+     │   ├── napi-derive-backend v1.0.75
+     │   │   └── napi-derive v2.16.13 (*)
+     │   ├── quote v1.0.37
+     │   │   ├── ctor v0.2.9
+     │   │   │   └── napi v2.16.13 (*)
+     │   │   ├── napi-derive v2.16.13 (*)
+     │   │   ├── napi-derive-backend v1.0.75 (*)
+     │   │   ├── syn v2.0.90
+     │   │   │   ├── ctor v0.2.9 (*)
+     │   │   │   ├── napi-derive v2.16.13 (*)
+     │   │   │   ├── napi-derive-backend v1.0.75 (*)
+     │   │   │   ├── wasm-bindgen-backend v0.2.99
+     │   │   │   │   └── wasm-bindgen-macro-support v0.2.99
+     │   │   │   │       └── wasm-bindgen-macro v0.2.99
+     │   │   │   │           └── wasm-bindgen v0.2.99
+     │   │   │   │               ├── chrono v0.4.39
+     │   │   │   │               │   └── napi v2.16.13 (*)
+     │   │   │   │               ├── iana-time-zone v0.1.61
+     │   │   │   │               │   └── chrono v0.4.39 (*)
+     │   │   │   │               └── js-sys v0.3.76
+     │   │   │   │                   ├── chrono v0.4.39 (*)
+     │   │   │   │                   └── iana-time-zone v0.1.61 (*)
+     │   │   │   └── wasm-bindgen-macro-support v0.2.99 (*)
+     │   │   ├── wasm-bindgen-backend v0.2.99 (*)
+     │   │   ├── wasm-bindgen-macro v0.2.99 (*)
+     │   │   └── wasm-bindgen-macro-support v0.2.99 (*)
+     │   ├── syn v2.0.90 (*)
+     │   ├── wasm-bindgen-backend v0.2.99 (*)
+     │   └── wasm-bindgen-macro-support v0.2.99 (*)
+     └── syn v2.0.90 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:56:1
+   │
+56 │ unicode-segmentation 1.12.0 registry+https://github.com/rust-lang/crates.io-index
+   │ --------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = unicode-segmentation v1.12.0
+     └── convert_case v0.6.0
+         ├── napi-derive v2.16.13
+         │   ├── napi v2.16.13
+         │   │   └── node-binding v0.1.0
+         │   └── node-binding v0.1.0 (*)
+         └── napi-derive-backend v1.0.75
+             └── napi-derive v2.16.13 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:57:1
+   │
+57 │ wasm-bindgen 0.2.99 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = wasm-bindgen v0.2.99
+     ├── chrono v0.4.39
+     │   └── napi v2.16.13
+     │       └── node-binding v0.1.0
+     ├── iana-time-zone v0.1.61
+     │   └── chrono v0.4.39 (*)
+     └── js-sys v0.3.76
+         ├── chrono v0.4.39 (*)
+         └── iana-time-zone v0.1.61 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:58:1
+   │
+58 │ wasm-bindgen-backend 0.2.99 registry+https://github.com/rust-lang/crates.io-index
+   │ --------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = wasm-bindgen-backend v0.2.99
+     └── wasm-bindgen-macro-support v0.2.99
+         └── wasm-bindgen-macro v0.2.99
+             └── wasm-bindgen v0.2.99
+                 ├── chrono v0.4.39
+                 │   └── napi v2.16.13
+                 │       └── node-binding v0.1.0
+                 ├── iana-time-zone v0.1.61
+                 │   └── chrono v0.4.39 (*)
+                 └── js-sys v0.3.76
+                     ├── chrono v0.4.39 (*)
+                     └── iana-time-zone v0.1.61 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:59:1
+   │
+59 │ wasm-bindgen-macro 0.2.99 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = wasm-bindgen-macro v0.2.99
+     └── wasm-bindgen v0.2.99
+         ├── chrono v0.4.39
+         │   └── napi v2.16.13
+         │       └── node-binding v0.1.0
+         ├── iana-time-zone v0.1.61
+         │   └── chrono v0.4.39 (*)
+         └── js-sys v0.3.76
+             ├── chrono v0.4.39 (*)
+             └── iana-time-zone v0.1.61 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:60:1
+   │
+60 │ wasm-bindgen-macro-support 0.2.99 registry+https://github.com/rust-lang/crates.io-index
+   │ --------------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = wasm-bindgen-macro-support v0.2.99
+     └── wasm-bindgen-macro v0.2.99
+         └── wasm-bindgen v0.2.99
+             ├── chrono v0.4.39
+             │   └── napi v2.16.13
+             │       └── node-binding v0.1.0
+             ├── iana-time-zone v0.1.61
+             │   └── chrono v0.4.39 (*)
+             └── js-sys v0.3.76
+                 ├── chrono v0.4.39 (*)
+                 └── iana-time-zone v0.1.61 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:61:1
+   │
+61 │ wasm-bindgen-shared 0.2.99 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = wasm-bindgen-shared v0.2.99
+     ├── wasm-bindgen-backend v0.2.99
+     │   └── wasm-bindgen-macro-support v0.2.99
+     │       └── wasm-bindgen-macro v0.2.99
+     │           └── wasm-bindgen v0.2.99
+     │               ├── chrono v0.4.39
+     │               │   └── napi v2.16.13
+     │               │       └── node-binding v0.1.0
+     │               ├── iana-time-zone v0.1.61
+     │               │   └── chrono v0.4.39 (*)
+     │               └── js-sys v0.3.76
+     │                   ├── chrono v0.4.39 (*)
+     │                   └── iana-time-zone v0.1.61 (*)
+     └── wasm-bindgen-macro-support v0.2.99 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:62:1
+   │
+62 │ windows-core 0.52.0 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows-core v0.52.0
+     └── iana-time-zone v0.1.61
+         └── chrono v0.4.39
+             └── napi v2.16.13
+                 └── node-binding v0.1.0
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:63:1
+   │
+63 │ windows-targets 0.52.6 registry+https://github.com/rust-lang/crates.io-index
+   │ ---------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows-targets v0.52.6
+     ├── backtrace v0.3.74
+     │   └── tokio v1.42.0
+     │       └── napi v2.16.13
+     │           └── node-binding v0.1.0
+     ├── chrono v0.4.39
+     │   └── napi v2.16.13 (*)
+     ├── libloading v0.8.6
+     │   └── napi-sys v2.4.0
+     │       └── napi v2.16.13 (*)
+     └── windows-core v0.52.0
+         └── iana-time-zone v0.1.61
+             └── chrono v0.4.39 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:64:1
+   │
+64 │ windows_aarch64_gnullvm 0.52.6 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows_aarch64_gnullvm v0.52.6
+     └── windows-targets v0.52.6
+         ├── backtrace v0.3.74
+         │   └── tokio v1.42.0
+         │       └── napi v2.16.13
+         │           └── node-binding v0.1.0
+         ├── chrono v0.4.39
+         │   └── napi v2.16.13 (*)
+         ├── libloading v0.8.6
+         │   └── napi-sys v2.4.0
+         │       └── napi v2.16.13 (*)
+         └── windows-core v0.52.0
+             └── iana-time-zone v0.1.61
+                 └── chrono v0.4.39 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:65:1
+   │
+65 │ windows_aarch64_msvc 0.52.6 registry+https://github.com/rust-lang/crates.io-index
+   │ --------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows_aarch64_msvc v0.52.6
+     └── windows-targets v0.52.6
+         ├── backtrace v0.3.74
+         │   └── tokio v1.42.0
+         │       └── napi v2.16.13
+         │           └── node-binding v0.1.0
+         ├── chrono v0.4.39
+         │   └── napi v2.16.13 (*)
+         ├── libloading v0.8.6
+         │   └── napi-sys v2.4.0
+         │       └── napi v2.16.13 (*)
+         └── windows-core v0.52.0
+             └── iana-time-zone v0.1.61
+                 └── chrono v0.4.39 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:66:1
+   │
+66 │ windows_i686_gnu 0.52.6 registry+https://github.com/rust-lang/crates.io-index
+   │ ----------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows_i686_gnu v0.52.6
+     └── windows-targets v0.52.6
+         ├── backtrace v0.3.74
+         │   └── tokio v1.42.0
+         │       └── napi v2.16.13
+         │           └── node-binding v0.1.0
+         ├── chrono v0.4.39
+         │   └── napi v2.16.13 (*)
+         ├── libloading v0.8.6
+         │   └── napi-sys v2.4.0
+         │       └── napi v2.16.13 (*)
+         └── windows-core v0.52.0
+             └── iana-time-zone v0.1.61
+                 └── chrono v0.4.39 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:67:1
+   │
+67 │ windows_i686_gnullvm 0.52.6 registry+https://github.com/rust-lang/crates.io-index
+   │ --------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows_i686_gnullvm v0.52.6
+     └── windows-targets v0.52.6
+         ├── backtrace v0.3.74
+         │   └── tokio v1.42.0
+         │       └── napi v2.16.13
+         │           └── node-binding v0.1.0
+         ├── chrono v0.4.39
+         │   └── napi v2.16.13 (*)
+         ├── libloading v0.8.6
+         │   └── napi-sys v2.4.0
+         │       └── napi v2.16.13 (*)
+         └── windows-core v0.52.0
+             └── iana-time-zone v0.1.61
+                 └── chrono v0.4.39 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:68:1
+   │
+68 │ windows_i686_msvc 0.52.6 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------------ crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows_i686_msvc v0.52.6
+     └── windows-targets v0.52.6
+         ├── backtrace v0.3.74
+         │   └── tokio v1.42.0
+         │       └── napi v2.16.13
+         │           └── node-binding v0.1.0
+         ├── chrono v0.4.39
+         │   └── napi v2.16.13 (*)
+         ├── libloading v0.8.6
+         │   └── napi-sys v2.4.0
+         │       └── napi v2.16.13 (*)
+         └── windows-core v0.52.0
+             └── iana-time-zone v0.1.61
+                 └── chrono v0.4.39 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:69:1
+   │
+69 │ windows_x86_64_gnu 0.52.6 registry+https://github.com/rust-lang/crates.io-index
+   │ ------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows_x86_64_gnu v0.52.6
+     └── windows-targets v0.52.6
+         ├── backtrace v0.3.74
+         │   └── tokio v1.42.0
+         │       └── napi v2.16.13
+         │           └── node-binding v0.1.0
+         ├── chrono v0.4.39
+         │   └── napi v2.16.13 (*)
+         ├── libloading v0.8.6
+         │   └── napi-sys v2.4.0
+         │       └── napi v2.16.13 (*)
+         └── windows-core v0.52.0
+             └── iana-time-zone v0.1.61
+                 └── chrono v0.4.39 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:70:1
+   │
+70 │ windows_x86_64_gnullvm 0.52.6 registry+https://github.com/rust-lang/crates.io-index
+   │ ----------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows_x86_64_gnullvm v0.52.6
+     └── windows-targets v0.52.6
+         ├── backtrace v0.3.74
+         │   └── tokio v1.42.0
+         │       └── napi v2.16.13
+         │           └── node-binding v0.1.0
+         ├── chrono v0.4.39
+         │   └── napi v2.16.13 (*)
+         ├── libloading v0.8.6
+         │   └── napi-sys v2.4.0
+         │       └── napi v2.16.13 (*)
+         └── windows-core v0.52.0
+             └── iana-time-zone v0.1.61
+                 └── chrono v0.4.39 (*)
+
+warning[index-failure]: unable to check for yanked crates
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/Cargo.lock:71:1
+   │
+71 │ windows_x86_64_msvc 0.52.6 registry+https://github.com/rust-lang/crates.io-index
+   │ -------------------------------------------------------------------------------- crate whose registry we failed to query
+   │
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:43:11
+   │
+43 │ yanked = "warn"
+   │           ^^^^ lint level defined here
+   │
+   = unable to locate index entry for crate
+   = windows_x86_64_msvc v0.52.6
+     └── windows-targets v0.52.6
+         ├── backtrace v0.3.74
+         │   └── tokio v1.42.0
+         │       └── napi v2.16.13
+         │           └── node-binding v0.1.0
+         ├── chrono v0.4.39
+         │   └── napi v2.16.13 (*)
+         ├── libloading v0.8.6
+         │   └── napi-sys v2.4.0
+         │       └── napi v2.16.13 (*)
+         └── windows-core v0.52.0
+             └── iana-time-zone v0.1.61
+                 └── chrono v0.4.39 (*)
+
+warning[advisory-not-detected]: advisory was not encountered
+   ┌─ /Users/zackjchen/Desktop/RustProject/napi-example/deny.toml:52:4
+   │
+52 │   "RUSTSEC-2023-0071",
+   │    ^^^^^^^^^^^^^^^^^ no crate matched advisory criteria
+
+advisories ok, bans ok, licenses ok, sources ok
