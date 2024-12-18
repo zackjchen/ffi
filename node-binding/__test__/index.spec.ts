@@ -1,10 +1,7 @@
 import test from 'ava'
 
-import { add,  Algo} from '../index'
+import { Algo} from '../index'
 
-test('sync function from native code', (t) => {
-  t.is(add(1,2), 3)
-})
 
 test('Algo failed', (t) => {
   var algo = new Algo("test")

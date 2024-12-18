@@ -1,0 +1,28 @@
+[project]
+name = "algo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zackjchen", email = "chenjia0101@foxmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "pandas>=2.2.3",
+]
+
+[project.scripts]
+python-binding = "algo:main"
+
+[tool.maturin]
+module-name = "algo._core"
+python-packages = ["algo"]
+python-source = "src"
+
+[tool.uv.workspace]
+members = ["test"]
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
